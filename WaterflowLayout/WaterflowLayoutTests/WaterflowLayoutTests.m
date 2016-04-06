@@ -1,6 +1,6 @@
 //
-//  _____WaterflowLayoutTests.m
-//  添加相框 WaterflowLayoutTests
+//  WaterflowLayoutTests.m
+//  WaterflowLayoutTests
 //
 //  Created by 小蔡 on 16/4/6.
 //  Copyright © 2016年 xiaocai. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface _____WaterflowLayoutTests : XCTestCase
+@interface WaterflowLayoutTests : XCTestCase
 
 @end
 
-@implementation _____WaterflowLayoutTests
+@implementation WaterflowLayoutTests
 
 - (void)setUp {
     [super setUp];
