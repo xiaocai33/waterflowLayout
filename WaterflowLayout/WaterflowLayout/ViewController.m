@@ -43,6 +43,8 @@ static NSString * const ID = @"shop";
     // 3.创建UICollectionView
     UICollectionView *collection = [[UICollectionView alloc] initWithFrame:self.view.frame collectionViewLayout:layout];
     
+    collection.backgroundColor = [UIColor whiteColor];
+    
     collection.delegate = self;
     collection.dataSource = self;
     
