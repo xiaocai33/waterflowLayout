@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C9822D1CB548BC00AA9A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C9822C1CB548BC00AA9A3D /* main.m */; };
+		33C982301CB548BC00AA9A3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C9822F1CB548BC00AA9A3D /* AppDelegate.m */; };
+		33C982331CB548BC00AA9A3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C982321CB548BC00AA9A3D /* ViewController.m */; };
+		33C982361CB548BC00AA9A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C982341CB548BC00AA9A3D /* Main.storyboard */; };
+		33C982381CB548BC00AA9A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C982371CB548BC00AA9A3D /* Assets.xcassets */; };
+		33C9823B1CB548BC00AA9A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C982391CB548BC00AA9A3D /* LaunchScreen.storyboard */; };
+		33C982461CB548BD00AA9A3D /* _____WaterflowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C982451CB548BD00AA9A3D /* _____WaterflowLayoutTests.m */; };
+		33C982511CB548BD00AA9A3D /* _____WaterflowLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C982501CB548BD00AA9A3D /* _____WaterflowLayoutUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33C982421CB548BD00AA9A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33C982201CB548BC00AA9A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33C982271CB548BC00AA9A3D;
+			remoteInfo = "添加相框 WaterflowLayout";
+		};
+		33C9824D1CB548BD00AA9A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33C982201CB548BC00AA9A3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33C982271CB548BC00AA9A3D;
+			remoteInfo = "添加相框 WaterflowLayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33C982281CB548BC00AA9A3D /* 添加相框 WaterflowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "添加相框 WaterflowLayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C9822C1CB548BC00AA9A3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33C9822E1CB548BC00AA9A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33C9822F1CB548BC00AA9A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33C982311CB548BC00AA9A3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33C982321CB548BC00AA9A3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33C982351CB548BC00AA9A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33C982371CB548BC00AA9A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33C9823A1CB548BC00AA9A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33C9823C1CB548BC00AA9A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C982411CB548BD00AA9A3D /* 添加相框 WaterflowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "添加相框 WaterflowLayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C982451CB548BD00AA9A3D /* _____WaterflowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____WaterflowLayoutTests.m"; sourceTree = "<group>"; };
+		33C982471CB548BD00AA9A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C9824C1CB548BD00AA9A3D /* 添加相框 WaterflowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "添加相框 WaterflowLayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C982501CB548BD00AA9A3D /* _____WaterflowLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____WaterflowLayoutUITests.m"; sourceTree = "<group>"; };
+		33C982521CB548BD00AA9A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33C982251CB548BC00AA9A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C9823E1CB548BD00AA9A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C982491CB548BD00AA9A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33C9821F1CB548BC00AA9A3D = {
+			isa = PBXGroup;
+			children = (
+				33C9822A1CB548BC00AA9A3D /* 添加相框 WaterflowLayout */,
+				33C982441CB548BD00AA9A3D /* 添加相框 WaterflowLayoutTests */,
+				33C9824F1CB548BD00AA9A3D /* 添加相框 WaterflowLayoutUITests */,
+				33C982291CB548BC00AA9A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33C982291CB548BC00AA9A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33C982281CB548BC00AA9A3D /* 添加相框 WaterflowLayout.app */,
+				33C982411CB548BD00AA9A3D /* 添加相框 WaterflowLayoutTests.xctest */,
+				33C9824C1CB548BD00AA9A3D /* 添加相框 WaterflowLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33C9822A1CB548BC00AA9A3D /* 添加相框 WaterflowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				33C9825F1CB5490000AA9A3D /* WaterflowLayout */,
+				33C9825E1CB548FA00AA9A3D /* View */,
+				33C9822E1CB548BC00AA9A3D /* AppDelegate.h */,
+				33C9822F1CB548BC00AA9A3D /* AppDelegate.m */,
+				33C982311CB548BC00AA9A3D /* ViewController.h */,
+				33C982321CB548BC00AA9A3D /* ViewController.m */,
+				33C982341CB548BC00AA9A3D /* Main.storyboard */,
+				33C982371CB548BC00AA9A3D /* Assets.xcassets */,
+				33C982391CB548BC00AA9A3D /* LaunchScreen.storyboard */,
+				33C9823C1CB548BC00AA9A3D /* Info.plist */,
+				33C9822B1CB548BC00AA9A3D /* Supporting Files */,
+			);
+			path = "添加相框 WaterflowLayout";
+			sourceTree = "<group>";
+		};
+		33C9822B1CB548BC00AA9A3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33C9822C1CB548BC00AA9A3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33C982441CB548BD00AA9A3D /* 添加相框 WaterflowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				33C982451CB548BD00AA9A3D /* _____WaterflowLayoutTests.m */,
+				33C982471CB548BD00AA9A3D /* Info.plist */,
+			);
+			path = "添加相框 WaterflowLayoutTests";
+			sourceTree = "<group>";
+		};
+		33C9824F1CB548BD00AA9A3D /* 添加相框 WaterflowLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33C982501CB548BD00AA9A3D /* _____WaterflowLayoutUITests.m */,
+				33C982521CB548BD00AA9A3D /* Info.plist */,
+			);
+			path = "添加相框 WaterflowLayoutUITests";
+			sourceTree = "<group>";
+		};
+		33C9825E1CB548FA00AA9A3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33C9825F1CB5490000AA9A3D /* WaterflowLayout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WaterflowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33C982271CB548BC00AA9A3D /* 添加相框 WaterflowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C982551CB548BD00AA9A3D /* Build configuration list for PBXNativeTarget "添加相框 WaterflowLayout" */;
+			buildPhases = (
+				33C982241CB548BC00AA9A3D /* Sources */,
+				33C982251CB548BC00AA9A3D /* Frameworks */,
+				33C982261CB548BC00AA9A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "添加相框 WaterflowLayout";
+			productName = "添加相框 WaterflowLayout";
+			productReference = 33C982281CB548BC00AA9A3D /* 添加相框 WaterflowLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33C982401CB548BD00AA9A3D /* 添加相框 WaterflowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C982581CB548BD00AA9A3D /* Build configuration list for PBXNativeTarget "添加相框 WaterflowLayoutTests" */;
+			buildPhases = (
+				33C9823D1CB548BD00AA9A3D /* Sources */,
+				33C9823E1CB548BD00AA9A3D /* Frameworks */,
+				33C9823F1CB548BD00AA9A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33C982431CB548BD00AA9A3D /* PBXTargetDependency */,
+			);
+			name = "添加相框 WaterflowLayoutTests";
+			productName = "添加相框 WaterflowLayoutTests";
+			productReference = 33C982411CB548BD00AA9A3D /* 添加相框 WaterflowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33C9824B1CB548BD00AA9A3D /* 添加相框 WaterflowLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C9825B1CB548BD00AA9A3D /* Build configuration list for PBXNativeTarget "添加相框 WaterflowLayoutUITests" */;
+			buildPhases = (
+				33C982481CB548BD00AA9A3D /* Sources */,
+				33C982491CB548BD00AA9A3D /* Frameworks */,
+				33C9824A1CB548BD00AA9A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33C9824E1CB548BD00AA9A3D /* PBXTargetDependency */,
+			);
+			name = "添加相框 WaterflowLayoutUITests";
+			productName = "添加相框 WaterflowLayoutUITests";
+			productReference = 33C9824C1CB548BD00AA9A3D /* 添加相框 WaterflowLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33C982201CB548BC00AA9A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaocai;
+				TargetAttributes = {
+					33C982271CB548BC00AA9A3D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					33C982401CB548BD00AA9A3D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33C982271CB548BC00AA9A3D;
+					};
+					33C9824B1CB548BD00AA9A3D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33C982271CB548BC00AA9A3D;
+					};
+				};
+			};
+			buildConfigurationList = 33C982231CB548BC00AA9A3D /* Build configuration list for PBXProject "添加相框 WaterflowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33C9821F1CB548BC00AA9A3D;
+			productRefGroup = 33C982291CB548BC00AA9A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33C982271CB548BC00AA9A3D /* 添加相框 WaterflowLayout */,
+				33C982401CB548BD00AA9A3D /* 添加相框 WaterflowLayoutTests */,
+				33C9824B1CB548BD00AA9A3D /* 添加相框 WaterflowLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33C982261CB548BC00AA9A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C9823B1CB548BC00AA9A3D /* LaunchScreen.storyboard in Resources */,
+				33C982381CB548BC00AA9A3D /* Assets.xcassets in Resources */,
+				33C982361CB548BC00AA9A3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C9823F1CB548BD00AA9A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C9824A1CB548BD00AA9A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33C982241CB548BC00AA9A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C982331CB548BC00AA9A3D /* ViewController.m in Sources */,
+				33C982301CB548BC00AA9A3D /* AppDelegate.m in Sources */,
+				33C9822D1CB548BC00AA9A3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C9823D1CB548BD00AA9A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C982461CB548BD00AA9A3D /* _____WaterflowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C982481CB548BD00AA9A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C982511CB548BD00AA9A3D /* _____WaterflowLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33C982431CB548BD00AA9A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33C982271CB548BC00AA9A3D /* 添加相框 WaterflowLayout */;
+			targetProxy = 33C982421CB548BD00AA9A3D /* PBXContainerItemProxy */;
+		};
+		33C9824E1CB548BD00AA9A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33C982271CB548BC00AA9A3D /* 添加相框 WaterflowLayout */;
+			targetProxy = 33C9824D1CB548BD00AA9A3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33C982341CB548BC00AA9A3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C982351CB548BC00AA9A3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33C982391CB548BC00AA9A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33C9823A1CB548BC00AA9A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33C982531CB548BD00AA9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33C982541CB548BD00AA9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33C982561CB548BD00AA9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "添加相框 WaterflowLayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uestc.-----WaterflowLayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33C982571CB548BD00AA9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "添加相框 WaterflowLayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uestc.-----WaterflowLayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33C982591CB548BD00AA9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "添加相框 WaterflowLayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uestc.-----WaterflowLayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/添加相框 WaterflowLayout.app/添加相框 WaterflowLayout";
+			};
+			name = Debug;
+		};
+		33C9825A1CB548BD00AA9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "添加相框 WaterflowLayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uestc.-----WaterflowLayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/添加相框 WaterflowLayout.app/添加相框 WaterflowLayout";
+			};
+			name = Release;
+		};
+		33C9825C1CB548BD00AA9A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "添加相框 WaterflowLayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uestc.-----WaterflowLayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "添加相框 WaterflowLayout";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33C9825D1CB548BD00AA9A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "添加相框 WaterflowLayoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uestc.-----WaterflowLayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "添加相框 WaterflowLayout";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33C982231CB548BC00AA9A3D /* Build configuration list for PBXProject "添加相框 WaterflowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C982531CB548BD00AA9A3D /* Debug */,
+				33C982541CB548BD00AA9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C982551CB548BD00AA9A3D /* Build configuration list for PBXNativeTarget "添加相框 WaterflowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C982561CB548BD00AA9A3D /* Debug */,
+				33C982571CB548BD00AA9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33C982581CB548BD00AA9A3D /* Build configuration list for PBXNativeTarget "添加相框 WaterflowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C982591CB548BD00AA9A3D /* Debug */,
+				33C9825A1CB548BD00AA9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33C9825B1CB548BD00AA9A3D /* Build configuration list for PBXNativeTarget "添加相框 WaterflowLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C9825C1CB548BD00AA9A3D /* Debug */,
+				33C9825D1CB548BD00AA9A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33C982201CB548BC00AA9A3D /* Project object */;
+}
