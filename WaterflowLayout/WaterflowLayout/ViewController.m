@@ -10,10 +10,11 @@
 #import "WaterflowLayout.h"
 #import "CollectionViewCell.h"
 #import "Shop.h"
+#import "MJExtension.h"
 
 static NSString * const ID = @"shop";
 
-@interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface ViewController () <UICollectionViewDataSource, UICollectionViewDelegate, WaterflowLayoutDelegate>
 
 @property (nonatomic, strong) NSMutableArray *shops;
 
@@ -31,8 +32,15 @@ static NSString * const ID = @"shop";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    WaterflowLayout *layout = [[WaterflowLayout alloc] init];
+    //1初始化数据
+    NSArray *array = [Shop objectArrayWithFilename:@"1.plist"];
+    [self.shops addObjectsFromArray:array];
     
+     // 3.创建 WaterflowLayout 瀑布流
+    WaterflowLayout *layout = [[WaterflowLayout alloc] init];
+    layout.delegate = self;
+    
+    // 3.创建UICollectionView
     UICollectionView *collection = [[UICollectionView alloc] initWithFrame:self.view.frame collectionViewLayout:layout];
     
     collection.delegate = self;
@@ -58,6 +66,11 @@ static NSString * const ID = @"shop";
     return cell;
 }
 
+#pragma mark - WaterflowLayoutDelegate
+- (CGFloat)waterflowLayout:(WaterflowLayout *)waterflowLayout heightWithWidth:(CGFloat)width indexPath:(NSIndexPath *)indexPath{
+    Shop *shop = self.shops[indexPath.item];
+    return ( shop.h / shop.w * width);
+}
 
 
 @end
